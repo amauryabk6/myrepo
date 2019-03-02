@@ -1,2 +1,1 @@
-# myrepo
-vérifier la bonne configuration de la chaîne
+ajout à partir de mon poste local
