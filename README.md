@@ -8,3 +8,5 @@ test connection par ssh vraiment cette fois ci !
 ajout d'une ligne directement via RStudio :-)
 
 ajout d'une ligne à partir de Github.
+
+ajout d'une nouvelle ligne à partir de Rstudio. Et pendant ce temps là à Caracas...
