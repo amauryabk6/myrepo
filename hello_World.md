@@ -7,33 +7,58 @@ output:
     keep_md: yes
 ---
 
-
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Nous avons fait une belle balade cette après midi à St Paul de Loubressac.
 
 
 ```r
-summary(cars)
+library(tidyverse)
 ```
 
 ```
-##      speed           dist       
-##  Min.   : 4.0   Min.   :  2.00  
-##  1st Qu.:12.0   1st Qu.: 26.00  
-##  Median :15.0   Median : 36.00  
-##  Mean   :15.4   Mean   : 42.98  
-##  3rd Qu.:19.0   3rd Qu.: 56.00  
-##  Max.   :25.0   Max.   :120.00
+## ── Attaching packages ──────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
 ```
 
-## Including Plots
+```
+## ✔ ggplot2 3.1.0     ✔ purrr   0.3.0
+## ✔ tibble  2.0.1     ✔ dplyr   0.7.8
+## ✔ tidyr   0.8.2     ✔ stringr 1.3.1
+## ✔ readr   1.3.1     ✔ forcats 0.3.0
+```
 
-You can also embed plots, for example:
+```
+## ── Conflicts ─────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+```
 
-![](hello_World_files/figure-html/pressure-1.png)<!-- -->
+```r
+data("CO2")
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+summary(CO2)
+```
+
+```
+##      Plant             Type         Treatment       conc     
+##  Qn1    : 7   Quebec     :42   nonchilled:42   Min.   :  95  
+##  Qn2    : 7   Mississippi:42   chilled   :42   1st Qu.: 175  
+##  Qn3    : 7                                    Median : 350  
+##  Qc1    : 7                                    Mean   : 435  
+##  Qc3    : 7                                    3rd Qu.: 675  
+##  Qc2    : 7                                    Max.   :1000  
+##  (Other):42                                                  
+##      uptake     
+##  Min.   : 7.70  
+##  1st Qu.:17.90  
+##  Median :28.30  
+##  Mean   :27.21  
+##  3rd Qu.:37.12  
+##  Max.   :45.50  
+## 
+```
+
+```r
+plot(CO2$conc, CO2$uptake)
+```
+
+![](hello_World_files/figure-html/unnamed-chunk-1-1.png)<!-- -->
+
