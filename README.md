@@ -6,3 +6,5 @@ test connection par ssh vraiment cette fois ci !
 
 
 ajout d'une ligne directement via RStudio :-)
+
+ajout d'une ligne à partir de Github.
