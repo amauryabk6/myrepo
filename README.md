@@ -18,3 +18,5 @@ ajout de la fonction1 très utile :-) vraiment TOP
 ajout de la fonction2 indispensable !
 
 keep on going dev
+
+ajout d'une fonction3 par un tiers
