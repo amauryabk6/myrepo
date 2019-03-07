@@ -16,3 +16,5 @@ ajout d'une nouvelle ligne à partir de Rstudio. Et pendant ce temps là à Cara
 ajout de la fonction1 très utile :-) vraiment TOP
 
 ajout de la fonction2 indispensable !
+
+ajout d'une fonction3 par un tiers
