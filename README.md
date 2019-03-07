@@ -14,4 +14,4 @@ ajout d'une nouvelle ligne à partir de Rstudio. Et pendant ce temps là à Cara
 ... un vieux fume sa pipe au soleil
 
 
-ajout de la fonction1 très utile :-)
+ajout de la fonction1 très utile :-) vraiment TOP
